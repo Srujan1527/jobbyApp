@@ -1,0 +1,77 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.profile-image {
+  width: 50px;
+}
+
+.profile-heading {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.profile-description {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.failure-button {
+  padding: 8px;
+  width: 90px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  width: 10vw;
+}
+
+.label-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.employment-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.employment-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}

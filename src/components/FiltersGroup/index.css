@@ -1,0 +1,22 @@
+.label-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.employment-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.employment-heading {
+  color: #ffffff;
+}
+
+.heading {
+  color: #ffffff;
+}

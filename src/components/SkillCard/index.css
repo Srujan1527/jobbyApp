@@ -1,0 +1,35 @@
+.skill-image {
+  width: 30px;
+  height: 30px;
+}
+
+.skill-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.skill-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
